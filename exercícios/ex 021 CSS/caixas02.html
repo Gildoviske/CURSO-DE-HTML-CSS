@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags.</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        header{
+            width: 600px;
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: moccasin;
+            padding: 10px;
+            box-shadow:  3px 3px 3px rgb(43, 41, 41);
+        }
+        main{
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px rgb(43, 41, 41);
+        }
+        article{
+            background-color: mediumpurple;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: mediumturquoise;
+        }
+        footer{
+            background-color: lightslategrey;
+            color: lightyellow;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        /*colocar borda em foto :
+        border-image-source: url(......)
+        border-image-slice:....
+        border-image-repeat: streach/ repeat
+        NÃO MUITO USADO.*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O Meu site.</h1>
+        <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>
+                Esportes Política tecnologia.
+            </p>
+
+        </section>
+      <section id="noticias">
+          <article>
+                <h2>noticias sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto molestias temporibus iste. Sint, necessitatibus. Dolore ipsa provident illum id dolorum fugit adipisci quisquam cupiditate, sunt odio delectus aut nulla. Doloremque.</p>
+                <aside>
+                     <p>Artigo escrito por ...</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+      </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gildoviske.</p>
+    </footer>
+</body>
+</html>
