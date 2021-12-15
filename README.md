@@ -1,2 +1,2 @@
 # CURSO DE HTML CSS
- CURSO HTML/CSS
+ exercícios de html e css
